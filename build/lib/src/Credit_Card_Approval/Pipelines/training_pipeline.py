@@ -1,0 +1,9 @@
+from src.Credit_Card_Approval.components.data_ingestion import Ingestion
+from src.Credit_Card_Approval.components.data_transformation import DataTransformation
+from src.Credit_Card_Approval.components.model_trainer import ModelTrainer
+ingestion=Ingestion()
+train_path,valid_path=ingestion.initiate_data_ingestion()
+transform=DataTransformation()
+train_data,valid_data=transform.initialize_data_transformation(train_path,valid_path)
+trainer=ModelTrainer()
+trainer.initiate_model_training(train_data,valid_data)

@@ -1,0 +1,9 @@
+[2023-11-15 01:39:50,798] 225 werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2023-11-15 01:40:02,912] 225 werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 01:40:02] "GET / HTTP/1.1" 200 -
+[2023-11-15 01:40:14,006] 225 werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 01:40:14] "GET /predict HTTP/1.1" 200 -
+[2023-11-15 01:41:40,884] 65 root - INFO - DataFrame created
+[2023-11-15 01:41:40,960] 225 werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 01:41:40] "POST /predict HTTP/1.1" 200 -
+[2023-11-15 01:41:49,260] 225 werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 01:41:49] "GET / HTTP/1.1" 200 -
+[2023-11-15 01:41:53,742] 225 werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 01:41:53] "GET /predict HTTP/1.1" 200 -
+[2023-11-15 01:43:01,060] 65 root - INFO - DataFrame created
+[2023-11-15 01:43:01,066] 225 werkzeug - INFO - 127.0.0.1 - - [15/Nov/2023 01:43:01] "POST /predict HTTP/1.1" 200 -
